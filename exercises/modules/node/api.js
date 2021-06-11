@@ -1,5 +1,7 @@
 const { users , posts} = require('./data');
 
+
+
 const getUserById = (id, cb) => {
   // simulate API call
   setTimeout(() => {
@@ -15,6 +17,8 @@ const getPostsForUser = (userId, cb) => {
     cb(posts);
   }, 150);
 };
+
+
 
 module.exports = {
   getUserById,
