@@ -63,6 +63,7 @@ You'll be refacoring and fixing a simple static asset server. The server uses bl
 - [ ] refactor the sync file reading code to be async with a callback, promise, or async await
 - [ ] prevent the server from crashing when an assets is not found. Instead, respond with a 404 status code
 - [ ] create some sort of router logic to handle incoming requests for assets
+
 ### Debugging & Testing
 * location - `exercises/testing`
 * commands
@@ -75,6 +76,7 @@ You have to debug and track down some issues in a small app. Use your logging an
 - [ ] check the README on how to execute this program and run test
 - [ ] there are 3 bugs, find them and fix them
 - [ ] write some unit test with Jest to make sure those bugs stay fixed. Refactor the code if you have to
+
 ### Sharing and Deploying
 Deploy one of the exercises to heroku (server) or npm (cli)
 
